@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vincent Dela Cruz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vincent Dela Cruz</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vincent Dela Cruz</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onClick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onClick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onClick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onClick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="sections-container">
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          class="profilepic"
+          src="./assets/Linkedinsquare.jpg"
+          alt="Vincent Dela Cruz Profile Picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vincent Dela Cruz</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Vincent_Dela_Cruz_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vincentdelacruz/'"
+          />
+          <!--
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/vincentjdcz'"
+          />-->
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Profile-pic-2.jpg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                7+ years <br />
+                Frontend Development <br/>
+                Backend Development <br/>
+                UI Test Automation <br/>
+
+
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                University of Toronto <br />
+                Honours Bachelor of Science <br />
+                Computer Science Specialist | Mathematics Minor
+              </p>
+            </div>
+          </div>
+          <h3 class="technical-skills-header">Technical Skills</h3>
+          <div class="text-container skills-container">
+            
+              
+              <p class="skill-bubble">Typescript</p>
+              <p class="skill-bubble">JavaScript</p>
+              <p class="skill-bubble">HTML</p>
+              <p class="skill-bubble">CSS</p>
+              <p class="skill-bubble">React</p>
+              <p class="skill-bubble">Nextjs</p>
+              <p class="skill-bubble">Node.js</p>
+              <p class="skill-bubble">MongoDB</p>
+              <p class="skill-bubble">Express</p>
+              <p class="skill-bubble">ChakraUI</p>
+              <p class="skill-bubble">Robot Framework</p>
+              <p class="skill-bubble">Java</p>
+              <p class="skill-bubble">Selenium</p>
+              <p class="skill-bubble">XML</p>
+              <p class="skill-bubble">Git</p>
+              <p class="skill-bubble">Python</p>
+              <p class="skill-bubble">C</p>
+              <p class="skill-bubble">C#</p>
+              <p class="skill-bubble">PHP</p>
+              <p class="skill-bubble">SQL</p>
+              <p class="skill-bubble">XSL</p>
+              <p class="skill-bubble">XSLT</p>
+              <p class="skill-bubble">Jenkins</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Professional Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Aerosoft Systems</h2>
+            <div class="article-container">
+              <p class="date">12/2019 - 07/2023</p>
+              <h3>Java Developer</h3>  
+              
+              <article>
+                <div>
+                  <p>• Develop core product features and functionalities that
+                    improve user experience in Java</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Write XSL stylesheets applied to XML documents to
+                    produce HTML web pages</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Resolve reported product defects and bugs, maintaining
+                    customer satisfaction</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Introduced Robot Framework to CI/CD pipeline
+                    eliminating at least 8 hours of work per deployment</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">SAP</h2>
+            <div class="article-container">
+              <p class="date">11/2017 - 12/2018</p>
+                
+              <h3>Quality Engineer Intern</h3>  
+              <article>
+                <div>
+                  <p>• Wrote Robot Selenium test scripts to automate
+                    regression tests for legacy, web-based application</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Triaged and analyzed test results on continuous
+                    integration / continuous deployment platform to
+                    identify, investigate, and resolve failures</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Produced solutions for automation related failures and
+                    reported application bugs uncovered by tests</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Increased the existing test suite by over 100%</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Increased test stability from 70% stable to 100% stable</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Bell Canada</h2>
+            <div class="article-container">
+              <p class="date">05/2015 - 09/2016</p>
+              <h3>Network Analyst</h3>  
+              <article>
+                <div>
+                  <p>• Automated various daily hands-on processes using Bash
+                    scripts, resulting in time savings of about one man hour
+                    per day</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Eliminated margin of error that existed with human data
+                    processing</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <p>• Created dashboards on Splunk used in quarterly reports
+                    distributed throughout the company</p>
+                </div>
+              </article>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container project-container">
+            <div class="article-container">
+              <img
+                src="./assets/DigitalHippo2.jpg"
+                alt="DigitalHippo"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title digital-hippo-title">Digital Hippo</h2>
+            <div class="btn-container">
+              <!--<button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com'"
+            >
+              Github
+            </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://digitalhippo-production-0060.up.railway.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container project-container">
+            <div class="article-container">
+              <img
+                src="./assets/ChatApp.jpg"
+                alt="Chat App"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Live Chat App</h2>
+            <div class="btn-container">
+              <!--<button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com'"
+            >
+              Github
+            </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://chat-app-prod-7vcx.onrender.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container project-container">
+            <div class="article-container">
+              <img
+                src="./assets/threads-clone-1.jpg"
+                alt="Threads Clone"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Threads Clone</h2>
+            <div class="btn-container">
+              <!--<button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com'"
+            >
+              Github
+            </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://threads-prod.onrender.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="mail icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:vincentjdelacruz@gmail.com"
+              >vincentjdelacruz@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/vincentdelacruz/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Vincent Dela Cruz. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
